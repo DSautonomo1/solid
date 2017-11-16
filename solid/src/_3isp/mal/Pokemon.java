@@ -15,7 +15,7 @@ import java.util.List;
  *
  * @author Palacios
  */
-public abstract class Pokemon {
+public abstract class Pokemon implements EntrenamientoPokemon{
     private String nombre;
     private String tipo;
     private String habilidad;

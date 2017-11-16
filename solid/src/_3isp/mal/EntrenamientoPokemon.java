@@ -15,8 +15,8 @@ package _3isp.mal;
 */
 public interface EntrenamientoPokemon {
     
-    void aprenderAtaqueAgua();
-    void aprenderAtaqueFuego();
+    //void aprenderAtaqueAgua();
+    //void aprenderAtaqueFuego();
     void aprenderAtaqueCorte();   //todo pokemon tiene esta habilidad
     
     

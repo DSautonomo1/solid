@@ -9,13 +9,9 @@ package _3isp.mal;
  *
  * @author Palacios
  */
-public class PokemonFuego extends Pokemon implements EntrenamientoPokemon{
+public class PokemonFuego extends Pokemon implements EntrenamientoPokemonPiroforico{
 
-    @Override
-    public void aprenderAtaqueAgua() {
-        throw new UnsupportedOperationException();
-    }
-    
+  
     /*Debido a que nuestra interfaz es muy general no podremos implementar este entrenamiento
     */
     @Override
