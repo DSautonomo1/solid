@@ -5,12 +5,16 @@
  */
 package _1ocp.mal;
 
-
 /**
  *
- * @author Palacios
+ * @author Israel
  */
-public interface Ataque {
-    public double danioAtaque();
-    //ATAQUE_AGUA, ATAQUE_FUEGO , ATAQUE_AIRE , ATAQUE_PLANTA
+public class AtaquePlanta implements Ataque{
+
+    private double danio = 0.60;
+    @Override
+    public double danioAtaque() {
+        return this.danio;
+    }
+    
 }
